@@ -14,8 +14,12 @@ const about = {
             fieldValue: "Brandon Kang"
         },
         {
-            fieldName: "Phone",
-            fieldValue: "(+65) 9660 7954"
+            fieldName: "Email",
+            fieldValue: "brandonkangq@gmail.com"
+        },
+        {
+            fieldName: "Nationality",
+            fieldValue: "Singaporean"
         },
         {
             fieldName: "Experience",
@@ -25,14 +29,6 @@ const about = {
             fieldName: "Language",
             fieldValue: "English, Mandarin"
         },
-        {
-            fieldName: "Nationality",
-            fieldValue: "Singaporean"
-        },
-        {
-            fieldName: "Email",
-            fieldValue: "brandonkangq@gmail.com"
-        },
     ],
 }
 
@@ -40,7 +36,18 @@ const about = {
 const experience = {
     icon: "/",
     title: "My Experience",
-    description: "For more information about my experiences, check out my LinkedIn on my home page!",
+    description: (
+        <>
+            To find out more information about my experiences, check out my{' '}
+            <a href="https://www.linkedin.com/in/brand0nkang/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="text-accent hover:underline">
+               LinkedIn  
+            </a> 
+            {' '}here!
+        </>
+    ),
     items: [
         {
             company: "National University of Singapore",
@@ -64,7 +71,18 @@ const experience = {
 const education = {
     icon: "/",
     title: "My Education",
-    description: "For more information about my education, check out my LinkedIn on my home page!",
+    description: (
+        <>
+            To find out more information about my education, check out my{' '}
+            <a href="https://www.linkedin.com/in/brand0nkang/" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="text-accent hover:underline">
+               LinkedIn  
+            </a> 
+            {' '}here!
+        </>
+    ),
     items: [
         {
             institution: "National University of Singapore",

@@ -12,11 +12,11 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Sophomore at the National University of Singapore</span>
             <h1 className="h1 mb-6">
               Hello I'm <br /> <span className="text-accent">Brandon 👋</span>
             </h1>
-            <p className="max-w-[500px] md:max-w-[600px] mb-9 text-white/80">
+            <span className="text-xl">Sophomore at the National University of Singapore</span>
+            <p className="max-w-[500px] md:max-w-[600px] mt-5 mb-9 text-white/80">
               With my passion for science and technology, I aspire to further strengthen my knowledge, and develop innovative and integrated solutions to real world problems. I am interested in backend development, data engineering and intelligent systems and I am eager to learn and expand my skills in these areas.
             </p>
             { /* button and socials */}
