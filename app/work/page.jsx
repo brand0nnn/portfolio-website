@@ -12,17 +12,27 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
-        num: "CG1111A",
+        num: "04",
         category: "frontend",
-        title: "A-maze-ing Race",
-        description: "Built a robot to find its way through a maze in the shortest time possible. The robot will face several colour challenges at intermediate waypoints while attempting to complete the maze. To complete the maze, the robot has to successfully decipher all the colours accurately at these waypoints that direct the robot to the end of the maze while bumping the walls as little as possible.",
-        stack: [{name: "C"}, {name: "Arduino"}, {name: "Circuit Design"}],
-        image: "/assets/projects/cg1111a.jpg",
+        title: "Mahjong Game",
+        description: "Developed a Mahjong Game on four FPGAs using Verilog in a team. Responsible for designing a Serial Communication Protocol using UART for the transmisison of game data across the boards, and utilized Finite State Machines (FSMs) to manage game flow.",
+        stack: [{name: "FPGA"}, {name: "Verilog"}, {name: "FSMs"}],
+        image: "/assets/projects/ee2026.JPG",
         live: "",
-        github: "https://github.com/brand0nnn/Amazing-Race",
+        github: "",
     },
     {
-        num: "CG2111A",
+        num: "03",
+        category: "frontend",
+        title: "NUS Free Things",
+        description: "Developed a cross-platform mobile application for students staying on campus in NUS to give away unwanted items to reduce wastage. Built features such as user authentication, chatrooms, uploading of listings, and the viewing of listings on both the main listings page and a listings map.",
+        stack: [{name: "React Native"}, {name: "Firebase"}, {name: "JavaScript"}],
+        image: "/assets/projects/orbital2.png",
+        live: "https://www.youtube.com/watch?v=Vyp50gWVJUk",
+        github: "https://github.com/brand0nnn/nus-free-things",
+    },
+    {
+        num: "02",
         category: "frontend",
         title: "Search and Rescue",
         description: "Designed a tele-operated robotic vehicle to perform a search and rescue mission in a simulated environment. The robot is equipped with multiple sensors to map out its surroundings. It has to explore and search for different objects and identify their colours and park at a designated zone under a certain time limit with minimal collisions with the obstacles.",
@@ -32,14 +42,14 @@ const projects = [
         github: "https://github.com/brand0nnn/Search-and-Rescue",
     },
     {
-        num: "EE2026",
+        num: "01",
         category: "frontend",
-        title: "Mahjong Game",
-        description: "Developed a Mahjong Game on four FPGAs using Verilog in a team. Responsible for designing a Serial Communication Protocol using UART for the transmisison of game data across the boards, and utilized Finite State Machines (FSMs) to manage game flow.",
-        stack: [{name: "FPGA"}, {name: "Verilog"}, {name: "FSMs"}],
-        image: "/assets/projects/ee2026.JPG",
+        title: "A-maze-ing Race",
+        description: "Built a robot to find its way through a maze in the shortest time possible. The robot will face several colour challenges at intermediate waypoints while attempting to complete the maze. To complete the maze, the robot has to successfully decipher all the colours accurately at these waypoints that direct the robot to the end of the maze while bumping the walls as little as possible.",
+        stack: [{name: "C"}, {name: "Arduino"}, {name: "Circuit Design"}],
+        image: "/assets/projects/cg1111a.jpg",
         live: "",
-        github: "",
+        github: "https://github.com/brand0nnn/Amazing-Race",
     },
 ]
 
@@ -88,6 +98,7 @@ const Work = () => {
                             {/* buttons */}
                             <div className="flex items-center gap-4">
                                 {/* live project button */}
+                                {/*
                                 <Link href={project.live}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
@@ -100,6 +111,7 @@ const Work = () => {
                                         </Tooltip>
                                     </TooltipProvider>
                                 </Link>
+                                */}
                                 {/* github button */}
                                 <Link href={project.github}>
                                     <TooltipProvider delayDuration={100}>

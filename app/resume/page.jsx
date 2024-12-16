@@ -40,7 +40,7 @@ const about = {
 const experience = {
     icon: "/",
     title: "My Experience",
-    description: "For more information about my experiences, check out my LinkedIn on my Home page!",
+    description: "For more information about my experiences, check out my LinkedIn on my home page!",
     items: [
         {
             company: "National University of Singapore",
@@ -64,7 +64,7 @@ const experience = {
 const education = {
     icon: "/",
     title: "My Education",
-    description: "For more information about my education, check out my LinkedIn on my Home page!",
+    description: "For more information about my education, check out my LinkedIn on my home page!",
     items: [
         {
             institution: "National University of Singapore",
