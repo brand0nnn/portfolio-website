@@ -16,7 +16,7 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hello I'm <br /> <span className="text-accent">Brandon 👋</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] md:max-w-[600px] mb-9 text-white/80">
               With my passion for science and technology, I aspire to further strengthen my knowledge, and develop innovative and integrated solutions to real world problems. I am interested in backend development, data engineering and intelligent systems and I am eager to learn and expand my skills in these areas.
             </p>
             { /* button and socials */}
