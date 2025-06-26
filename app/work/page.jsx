@@ -12,6 +12,16 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
+        num: "05",
+        category: "frontend",
+        title: "BioWatch",
+        description: "Developed an iOS application for predictive analysis and early detection of diseases using user data obtained from Apple's HealthKit. Implemented machine learning models and enhanced model performance, achieving an accuracy of 91.6% for diseases like diabetes.",
+        stack: [{name: "Swift"}, {name: "Machine Learning"}, {name: "Neural Networks"}],
+        image: "/assets/projects/dlw.png",
+        live: "",
+        github: "https://github.com/brand0nnn/BioWatch",
+    },
+    {
         num: "04",
         category: "frontend",
         title: "Mahjong Game",
@@ -19,7 +29,7 @@ const projects = [
         stack: [{name: "FPGA"}, {name: "Verilog"}, {name: "FSMs"}],
         image: "/assets/projects/ee2026.JPG",
         live: "",
-        github: "",
+        github: "https://github.com/brand0nnn/ee2026_project",
     },
     {
         num: "03",
