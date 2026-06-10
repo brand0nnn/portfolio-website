@@ -15,7 +15,7 @@ const about = {
         },
         {
             fieldName: "Email",
-            fieldValue: "brandonkangq@gmail.com"
+            fieldValue: "brandonkang@u.nus.edu"
         },
         {
             fieldName: "Nationality",
@@ -23,7 +23,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "2 Years"
+            fieldValue: "3 Years"
         },
         {
             fieldName: "Language",
