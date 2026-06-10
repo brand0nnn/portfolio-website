@@ -50,6 +50,16 @@ const experience = {
     ),
     items: [
         {
+            company: "Huawei",
+            position: "Machine Learning Engineer",
+            duration: "Jun 2026 - Aug 2026",
+        },
+        {
+            company: "Cliniserve",
+            position: "Backend Software Engineer",
+            duration: "Jul 2025 - Dec 2025",
+        },
+        {
             company: "Land Transport Authority",
             position: "Full Stack Software Engineer",
             duration: "May 2025 - Jul 2025",
@@ -58,17 +68,7 @@ const experience = {
             company: "National University of Singapore",
             position: "Undergraduate Teaching Assistant",
             duration: "Aug 2024 - May 2025",
-        },
-        {
-            company: "Private Tutor",
-            position: "Physics Tutor",
-            duration: "Jan 2024 - Nov 2024",
-        },
-        {
-            company: "Republic of Singapore Air Force",
-            position: "Force Protection Duty Controller",
-            duration: "Nov 2021 - Feb 2023",
-        },
+        }
     ],
 }
 
@@ -96,7 +96,7 @@ const education = {
             descriptions: [
                 "GPA: 4.93/5.0 (First Class Honours)",
                 "Placed in the Deans' List (Top 5% of the cohort)",
-                "Student ambassador at the School of Computing"
+                "Student ambassador of the School of Computing"
             ]
         },
         {

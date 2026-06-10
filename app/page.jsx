@@ -15,10 +15,10 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hello I'm <br /> <span className="text-accent">Brandon 👋</span>
             </h1>
-            <span className="text-xl">3rd Year at the National University of Singapore</span>
+            <span className="text-xl">Final Year student at the National University of Singapore</span>
             <p className="max-w-[500px] md:max-w-[600px] mt-5 mb-9 text-white/80">
-              I am an Undergraduate Student at NUS currently working towards a Bachelor of Engineering in Computer Engineering with a Minor in Data Engineering.
-              I enjoy working and learning in areas such as Software Engineering, Data Engineering, and Artificial Intelligence.
+              I am an Undergraduate Student at NUS currently working towards a Bachelor of Engineering in Computer Engineering.
+              My areas of interest include Machine Learning, Natural Language Processing and Computer Vision.
               Feel free to take a look at my projects on GitHub, or connect with me on LinkedIn using the links below!
             </p>
             { /* button and socials */}

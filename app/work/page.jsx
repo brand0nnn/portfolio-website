@@ -12,6 +12,16 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
     {
+        num: "06",
+        category: "frontend",
+        title: "TLDR",
+        description: "Developed an iOS application for predictive analysis and early detection of diseases using user data obtained from Apple's HealthKit. Implemented machine learning models and enhanced model performance, achieving an accuracy of 91.6% for diseases like diabetes.",
+        stack: [{name: "BERT"}, {name: "Machine Learning"}, {name: "NLP"}],
+        image: "/assets/projects/tldr.png",
+        live: "",
+        github: "https://github.com/brand0nnn/Start-Hack-Financial-News-Aggregator",
+    },
+    {
         num: "05",
         category: "frontend",
         title: "BioWatch",
